@@ -15,9 +15,9 @@ all: build
 
 clean:
 	mix clean
-	rm -f cli
+	rm -f gcli
 
-deps: clean
+deps: clean version
 	mix deps.get
 	mix deps.compile
 
@@ -26,3 +26,7 @@ compile: deps
 
 build: compile
 	mix escript.build
+
+version:
+	@echo "0.1.0" > ${ACTUAL}/assets/version
+	@git rev-parse --short HEAD >> ${ACTUAL}/assets/version

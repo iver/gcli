@@ -1,3 +1,4 @@
 %{
   "dep_from_git": {:git, "git@github.com:iver/googlon.git", "86527d22658b5a5be8627a48155526654c025dc0", [tag: "v0.1.0"]},
+  "googlon": {:git, "git@github.com:iver/googlon.git", "86527d22658b5a5be8627a48155526654c025dc0", [tag: "v0.1.0"]},
 }
