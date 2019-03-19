@@ -28,7 +28,7 @@ defmodule Gcli.Help do
   end
 
   defp parse() do
-    IO.puts "\t -p | --parse \t\tParse the googlon text given and extract words, counts prepositions, verbs subjunctive verbs
+    IO.puts "\t -p | --parse \t\tParse the googlon text given and extract words, counts prepositions, verbs, subjunctive verbs
                              \tand sort each word according to googlon alphabet (sxocqnmwpfyheljrdgui)."
   end
 
