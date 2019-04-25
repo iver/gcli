@@ -1,6 +1,6 @@
 # Gcli
 
-The Googlon command line interface is designed as a Credijusco Challenge and now you can download the latest version build on Mac OS from http://iver.mx/gcli
+The Googlon command line interface is designed as a Challenge and now you can download the latest version build on Mac OS from http://iver.mx/gcli
 
 ```
 $ wget http://iver.mx/gcli
@@ -21,7 +21,7 @@ You can view Googlon full description on the googlon library site (https://githu
 
 ### Checking the installed version of Elixir
 
-Once you have Elixir installed, you can check its version by running 
+Once you have Elixir installed, you can check its version by running
 
 ```
 $ elixir --version
@@ -90,7 +90,7 @@ DESCRIPTION
        parse, count, order and show words. Whether you need convert from googlon number to decimal number, gcli allows you to
        knows the pretty googlon numbers too.
 
-    
+
 OPTIONS
 	 -s | --sort 		Sorts the words of the text added according to the alphabet.
 	 -c | --count 		Counts the googlon counts prepositions, verbs, subjunctive verbs and pretty numbers.
